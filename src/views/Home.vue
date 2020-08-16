@@ -17,6 +17,7 @@ import { mapGetters } from "vuex";
 
 export default {
   computed: {
+    // スプレッド演算子
     ...mapGetters("count", ["doubleCount", "tripleCount"]),
     message: {
       get() {
