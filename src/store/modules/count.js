@@ -21,7 +21,8 @@ const actions = {
     commit("decrement", number);
   }
 };
-export default {
+export default { 
+  //名前空間の設定 　
   namespaced: true,
   state,
   getters,
